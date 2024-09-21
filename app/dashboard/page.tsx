@@ -37,6 +37,7 @@ export default function Dashboard () {
       const response = await rawResponse.json();
       
       console.log(response)
+      alert("Booking created")
     }
 
     useEffect(() => {
